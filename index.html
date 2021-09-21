@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/stylesheet" />
+    <title>Puparazzi </title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <img src="assets/project_2logo" width="275" height="auto" style="object-fit:cover;
+        object-position: right;
+        opacity: .90;
+       width:auto;
+       height:300px;
+       border: solid 3px rgb(0, 0, 0)" ;>
+        <h1 class="display-3">Puparazzi </h1>
+        <p class="lead">Share your pictures of your four legged best friend</p>
+        <h3 id="date"></h3>
+    </header>
+    <div class="container" id="step_1">
+        <header>
+            <h2>submit your dog</h2>
+        </header>
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-3">
+
+                <input type="text" name="dog_name" id="dog_name" placeholder="Enter your dog's name">
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 mt-2 mt-xl-0">
+                <input class="pup-custom-input" type="file" name="picture" id="picture">
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 mt-2 mt-xl-0">
+                <input type="text" name="dog_info" id="dog_info" placeholder="Tell us about your pup">
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 mt-2 mt-xl-0">
+                <select name="breed" id="breed">
+                    <option value="select a breed">Breed</option>
+                    <option value="english_bulldog">English Bulldog</option>
+                    <option value="American_Pit_Bull_Terrier">American Pit Bull Terrier</option>
+                    <option value="golden_doodle">Golden-Doodle</option>
+                    <option value="labrador">Labrador</option>
+                    <option value="maltese">Maltese</option>
+                    <option value="west_highland_terrier">West Highland Terrier</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12">
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container hidden" id="step_2">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2>Name</h2>
+            </div>
+            <div class="col-12 col-md-6">
+                <h2><img src="assets/Dany.jpg" width="275" height="auto" style="object-fit:cover;
+                    object-position: left;
+                    opacity: 1;
+                   width:auto;
+                   height:300px;
+                   border: solid 3px rgb(0, 0, 0)" ;></h2>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class=" col-8">
+                <h2>API dog information</h2>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Photo editing</a></li>
+                            <li><a href="#">Turn your photos into artwork</a></li>
+                            <li><a href="#">APLA</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Puparazzi </h3>
+                        <p>We all know that most of the pictures in your camera are ones of your four legged best friend, we let you post these pictures and learn about your best friend </p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Puparazzi © 2021</p>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        </footer>
+    </div>
+
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+
+</html>
